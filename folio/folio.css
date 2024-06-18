@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#nav{
+    background-color: rgb(0, 200, 255);
+    width: 100%;
+    height: 70px; 
+}
+#h1{
+    display: flex;
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#ul1{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+#ul1 li{
+    padding-left: 30px;
+    margin-top: -30px;
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+
+} 
+#ul1 li a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    color: azure;
+}
+#guys{
+    background-color: rgba(0, 0, 0, 0.962);
+    width:100%;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#guys h1{
+    padding:30px;
+}
+#about{
+    width: 100%;
+    display: inline-block;
+    background-color:rgb(92, 194, 222);
+    
+}
+#about h1{
+  margin-left: 700px;
+  text-decoration: underline;
+}
+#about p{
+    margin-left: 800px;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    text-align: justify;
+    
+}
+#mypara{
+    margin-top: 50px;
+}
+#about img{
+    position:absolute;
+    height: 410px;
+    margin-top: 60px;
+    margin-left: 130px;
+    border-radius:300px;
+  
+}
+.downpara{
+    margin-top: -30px;
+}
+#project{
+    background-color: rgb(38, 102, 76);
+    width:100%;
+    color: rgb(245, 246, 247);
+    text-align: center;
+    
+}
+#project h1{
+    padding-top:30px;
+}
+#proul{
+    text-align: left;
+    list-style: circle;
+}
+#proul li{
+    margin-left: 200px;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: 400px ;
+}
+#myimg{
+    position:absolute;
+    margin-top: -900px;
+    margin-left: -100px;
+    border-radius: 40px;
+
+}
+#achi{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(98, 109, 200);
+}
+#achi p{
+    font: 2em sans-serif;
+    text-decoration: underline;
+    padding-top: 30px;
+}
+.aul{
+    margin-top: 100px;
+    margin-left: 90px;
+    text-align: left;
+    font-size: 1.5em;
+}
+.ula{
+    margin-left: 70px;
+    padding-bottom: 20px;
+}
+#contact{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(84, 173, 146);
+}
+#contact h2{
+    font: 2em sans-serif;
+    text-decoration: underline;
+    padding-top: 30px; 
+}
+.contact-form {
+    padding: 40px 0;
+    margin: 0 10px;
+}
+ 
+.form-container {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #385991;
+    border-radius: 10px;
+}
+ 
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-container label {
+    display:block;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.form-container input, textarea{
+
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #f1f1f1;
+    background-color: #edf1b7;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+    font-size: 1.2em;
+}
+.form-container input:hover {
+    border: solid rgb(213, 0, 0);
+}
+textarea:hover{
+    border: solid rgb(213, 0, 0);
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: hsl(267, 66%, 65%);
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.submit-button:hover{
+    background-color: hsl(267, 66%, 45%)
+}
+#foot{
+    background-color: rgb(134, 248, 111);
+    width: 100%;
+    height: 70px; 
+}
+#foot ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 1.5em;
+}
+#foot ul li a{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+#foot ul li a:hover{
+    color: aliceblue;
+}
+#ldiv{
+    background-color: aqua;
+}
+#lfont{
+    font-family: verdana;
+    color:"#4CAF50" ;
+    font-size:1.5em;
+}
+#lfoot b{
+    margin-left: 700px;
+    font-size: 2em;
+    cursor:pointer;
+}
+#lfoot b:hover{
+    color: blanchedalmond;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    animation: transitionIn 0.75s;
+}
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform:translateY(-10px)
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+
+
+}
+.hidden{
+    opacity: -3;
+    transition: all 2s;
+}
+.show{
+    opacity: 1;
+}
